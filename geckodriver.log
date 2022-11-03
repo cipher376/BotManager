@@ -2849,3 +2849,559 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 [2022-10-26T11:30:52Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
 1666783853270	Marionette	INFO	Stopped listening on port 43271
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667374355842	geckodriver	INFO	Listening on 127.0.0.1:45221
+1667374356560	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "50993" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenON3xV"
+1667374357198	Marionette	INFO	Marionette enabled
+1667374357202	Marionette	INFO	Listening on port 44925
+Read port: 44925
+WebDriver BiDi listening on ws://127.0.0.1:50993
+1667374357372	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenON3xV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50993/devtools/browser/78bafd52-3a93-4bff-a3a9-72b8245e2a64
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667374406193	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667374416802	geckodriver	INFO	Listening on 127.0.0.1:39307
+1667374416829	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "49985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileE5QFhA"
+1667374417196	Marionette	INFO	Marionette enabled
+1667374417199	Marionette	INFO	Listening on port 35651
+Read port: 35651
+WebDriver BiDi listening on ws://127.0.0.1:49985
+1667374417267	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileE5QFhA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49985/devtools/browser/3b04e58b-33b9-465a-ad5a-1269edbe3a30
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667374465513	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667374490091	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667374498848	geckodriver	INFO	Listening on 127.0.0.1:59033
+1667374498872	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "35943" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePIStfZ"
+1667374499238	Marionette	INFO	Marionette enabled
+1667374499241	Marionette	INFO	Listening on port 45567
+Read port: 45567
+WebDriver BiDi listening on ws://127.0.0.1:35943
+1667374499327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePIStfZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35943/devtools/browser/392d054b-5fdc-41f4-9b3b-5577a92ba15c
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667374548453	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667374573035	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667374581679	Marionette	INFO	Stopped listening on port 45567
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667374643070	geckodriver	INFO	Listening on 127.0.0.1:43077
+1667374643098	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "37249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQziTgJ"
+1667374643464	Marionette	INFO	Marionette enabled
+1667374643467	Marionette	INFO	Listening on port 35115
+Read port: 35115
+WebDriver BiDi listening on ws://127.0.0.1:37249
+1667374643537	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQziTgJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37249/devtools/browser/a20a3ff2-37da-4944-b172-b82e72d5fcf2
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667374693512	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667377130459	geckodriver	INFO	Listening on 127.0.0.1:34599
+1667377130487	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "47337" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile60ihG2"
+1667377130896	Marionette	INFO	Marionette enabled
+1667377130899	Marionette	INFO	Listening on port 37141
+WebDriver BiDi listening on ws://127.0.0.1:47337
+Read port: 37141
+1667377131183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile60ihG2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47337/devtools/browser/9f2ced49-bd4d-44db-854c-546d605cc17c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 5263 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377183495	geckodriver	INFO	Listening on 127.0.0.1:37981
+1667377183520	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "51849" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewWjfme"
+1667377183895	Marionette	INFO	Marionette enabled
+1667377183898	Marionette	INFO	Listening on port 32911
+Read port: 32911
+WebDriver BiDi listening on ws://127.0.0.1:51849
+1667377183968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewWjfme/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51849/devtools/browser/3a2c87db-dec4-4aff-b374-fabcb04e0f31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 4310 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377263528	geckodriver	INFO	Listening on 127.0.0.1:42307
+1667377263557	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "38865" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebeAQpM"
+1667377263944	Marionette	INFO	Marionette enabled
+1667377263947	Marionette	INFO	Listening on port 43205
+Read port: 43205
+WebDriver BiDi listening on ws://127.0.0.1:38865
+1667377264020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebeAQpM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38865/devtools/browser/8986f179-3550-45e0-a8a4-6c388ace3eb2
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 420))
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9072012879282207&output=html&h=250&slotname=6766047964&adk=1829950506&adf=1871339747&pi=t.ma~as.6766047964&w=304&fwrn=4&fwrnh=100&lmt=1667377278&rafmt=1&format=304x250&url=https%3A%2F%2Fenterskull.com%2F&fwr=0&fwrattr=true&rpe=1&resp_fmts=3&wgl=1&dt=1667377275577&bpp=1&bdt=5282&idt=2057&shv=r20221027&mjsv=m202210260101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0%2C1200x280%2C304x250&nras=1&correlator=7286709672193&frm=20&pv=1&ga_vid=830303584.1667377277&ga_sid=1667377279&ga_hid=646960512&ga_fc=1&u_tz=0&u_his=1&u_h=972&u_w=1920&u_ah=941&u_aw=1920&u_cd=24&u_sd=1&adx=921&ady=2361&biw=1280&bih=761&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C42531705%2C44773613%2C31069178%2C31070617%2C44775017&oid=2&pvsid=3902648927171021&tmod=407281434&nvt=1&eae=0&fc=1920&brdim=0%2C96%2C0%2C96%2C1920%2C31%2C1280%2C846%2C1280%2C761&vis=1&rsz=%7C%7CoEebr%7C&abl=CS&pfx=0&fu=128&bc=31&ifi=4&uci=a!4&btvi=2&fsb=1&xpc=E5ah08YxBj&p=https%3A//enterskull.com&dtd=3091, line 1: ReferenceError: osdlfm is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9072012879282207&output=html&h=250&slotname=7314155955&adk=1186555156&adf=3447126287&pi=t.ma~as.7314155955&w=304&fwrn=4&fwrnh=100&lmt=1667377278&rafmt=1&format=304x250&url=https%3A%2F%2Fenterskull.com%2F&fwr=0&fwrattr=true&rpe=1&resp_fmts=3&wgl=1&dt=1667377275577&bpp=1&bdt=5282&idt=2056&shv=r20221027&mjsv=m202210260101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0%2C1200x280&nras=1&correlator=7286709672193&frm=20&pv=1&ga_vid=830303584.1667377277&ga_sid=1667377279&ga_hid=646960512&ga_fc=1&u_tz=0&u_his=1&u_h=972&u_w=1920&u_ah=941&u_aw=1920&u_cd=24&u_sd=1&adx=921&ady=1511&biw=1280&bih=761&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C42531705%2C44773613%2C31069178%2C31070617%2C44775017&oid=2&pvsid=3902648927171021&tmod=407281434&nvt=1&eae=0&fc=1920&brdim=0%2C96%2C0%2C96%2C1920%2C31%2C1280%2C846%2C1280%2C761&vis=1&rsz=%7C%7CoEebr%7C&abl=CS&pfx=0&fu=128&bc=31&ifi=3&uci=a!3&btvi=1&fsb=1&xpc=ORi9F3YaJu&p=https%3A//enterskull.com&dtd=3085, line 1: ReferenceError: osdlfm is not defined
+JavaScript error: https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-9072012879282207&output=html&h=280&slotname=8744905708&adk=3169282623&adf=2230223042&pi=t.ma~as.8744905708&w=1200&fwrn=4&fwrnh=100&lmt=1667377278&rafmt=1&format=1200x280&url=https%3A%2F%2Fenterskull.com%2F&fwr=0&fwrattr=true&rpe=1&resp_fmts=3&wgl=1&dt=1667377275577&bpp=3&bdt=5282&idt=2052&shv=r20221027&mjsv=m202210260101&ptt=9&saldr=aa&abxe=1&prev_fmts=0x0&nras=1&correlator=7286709672193&frm=20&pv=1&ga_vid=830303584.1667377277&ga_sid=1667377279&ga_hid=646960512&ga_fc=1&u_tz=0&u_his=1&u_h=972&u_w=1920&u_ah=941&u_aw=1920&u_cd=24&u_sd=1&adx=0&ady=250&biw=1280&bih=761&scr_x=0&scr_y=0&eid=44759876%2C44759927%2C44759842%2C42531705%2C44773613%2C31069178%2C31070617%2C44775017&oid=2&pvsid=3902648927171021&tmod=407281434&nvt=1&eae=0&fc=1920&brdim=0%2C96%2C0%2C96%2C1920%2C31%2C1280%2C846%2C1280%2C761&vis=1&rsz=%7C%7CoEe%7C&abl=CS&pfx=0&fu=128&bc=31&ifi=2&uci=a!2&fsb=1&xpc=OOnmPLDlZn&p=https%3A//enterskull.com&dtd=3076, line 1: ReferenceError: osdlfm is not defined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2110 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377315630	geckodriver	INFO	Listening on 127.0.0.1:49919
+1667377315662	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "56383" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMahla0"
+1667377316033	Marionette	INFO	Marionette enabled
+1667377316037	Marionette	INFO	Listening on port 34299
+Read port: 34299
+WebDriver BiDi listening on ws://127.0.0.1:56383
+1667377316117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMahla0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56383/devtools/browser/042b2d8b-7384-41c1-912e-be373ad4d21d
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 513 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377415671	geckodriver	INFO	Listening on 127.0.0.1:51957
+1667377415702	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "57115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGTKAIV"
+1667377416113	Marionette	INFO	Marionette enabled
+1667377416117	Marionette	INFO	Listening on port 45777
+WebDriver BiDi listening on ws://127.0.0.1:57115
+Read port: 45777
+1667377416409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGTKAIV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57115/devtools/browser/d313b918-f15b-4361-ab69-c45766ca9bb5
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1667377504229	geckodriver	INFO	Listening on 127.0.0.1:50485
+1667377504256	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "58439" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTBvRsJ"
+1667377504635	Marionette	INFO	Marionette enabled
+1667377504638	Marionette	INFO	Listening on port 38021
+Read port: 38021
+WebDriver BiDi listening on ws://127.0.0.1:58439
+1667377504787	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTBvRsJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58439/devtools/browser/d7f6a329-5d24-4edc-b6e5-aca9e69ebf1c
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 4029 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 5419 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/PTWQOrfCOp17EyrMcPeT6PfhP85_faJCCfTgkqMfTIQ.js line 2 > eval line 509 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377607253	geckodriver	INFO	Listening on 127.0.0.1:46797
+1667377607282	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "45895" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJNZPDi"
+1667377607657	Marionette	INFO	Marionette enabled
+1667377607660	Marionette	INFO	Listening on port 37803
+Read port: 37803
+WebDriver BiDi listening on ws://127.0.0.1:45895
+1667377607739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJNZPDi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45895/devtools/browser/cb4244e2-8f9c-44cb-9401-7f09a15611be
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript error: , line 0: uncaught exception: undefined
+1667377661281	geckodriver	INFO	Listening on 127.0.0.1:52975
+1667377661308	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "37499" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley71Y4E"
+1667377661676	Marionette	INFO	Marionette enabled
+1667377661679	Marionette	INFO	Listening on port 38985
+WebDriver BiDi listening on ws://127.0.0.1:37499
+Read port: 38985
+1667377661835	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley71Y4E/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37499/devtools/browser/f9ea74ad-bfae-43f7-b75b-a3668260b0e7
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 3211 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377717313	geckodriver	INFO	Listening on 127.0.0.1:42425
+1667377717341	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "39183" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileUqUoCz"
+1667377717732	Marionette	INFO	Marionette enabled
+1667377717735	Marionette	INFO	Listening on port 34899
+Read port: 34899
+WebDriver BiDi listening on ws://127.0.0.1:39183
+1667377717811	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUqUoCz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39183/devtools/browser/f39b5d25-6a6c-425f-8766-9199c62caebb
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 7256 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667377772104	Marionette	INFO	Stopped listening on port 34899
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667377829488	geckodriver	INFO	Listening on 127.0.0.1:49915
+1667377829515	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "57839" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqjcvwx"
+1667377829900	Marionette	INFO	Marionette enabled
+1667377829903	Marionette	INFO	Listening on port 38985
+Read port: 38985
+WebDriver BiDi listening on ws://127.0.0.1:57839
+1667377829974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqjcvwx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57839/devtools/browser/9fa9ad11-a252-4aa5-b73e-2b3527e9b665
+1667377834536	geckodriver	INFO	Listening on 127.0.0.1:54663
+1667377834565	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "35971" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5D3sCR"
+1667377834945	Marionette	INFO	Marionette enabled
+1667377834948	Marionette	INFO	Listening on port 46839
+Read port: 46839
+WebDriver BiDi listening on ws://127.0.0.1:35971
+1667377835016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5D3sCR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35971/devtools/browser/12292790-310e-4ec2-a45b-b1543492228a
+1667377914622	geckodriver	INFO	Listening on 127.0.0.1:59591
+1667377914653	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "55039" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeu6G26"
+1667377915016	Marionette	INFO	Marionette enabled
+1667377915018	Marionette	INFO	Listening on port 43235
+Read port: 43235
+WebDriver BiDi listening on ws://127.0.0.1:55039
+1667377915089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeu6G26/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55039/devtools/browser/0714f025-e894-4af7-803f-b30c0386df85
+JavaScript warning: https://pagead2.googlesyndication.com/bg/HZrunHRjvTX5MIeL6Ibl7iJKqMmAAzHWmbkaKM7M3x0.js line 2 > eval line 2972 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667377998651	geckodriver	INFO	Listening on 127.0.0.1:43199
+1667377998680	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "55429" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile008saO"
+1667377999051	Marionette	INFO	Marionette enabled
+1667377999054	Marionette	INFO	Listening on port 33577
+Read port: 33577
+WebDriver BiDi listening on ws://127.0.0.1:55429
+1667377999125	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile008saO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55429/devtools/browser/3f00255f-8454-478c-9ee4-3580cd4121fe
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 70 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378071695	geckodriver	INFO	Listening on 127.0.0.1:38115
+1667378071721	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "57965" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFFqKHd"
+1667378072118	Marionette	INFO	Marionette enabled
+1667378072121	Marionette	INFO	Listening on port 37625
+Read port: 37625
+WebDriver BiDi listening on ws://127.0.0.1:57965
+1667378072235	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFFqKHd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57965/devtools/browser/6d1328ec-864d-46b0-8bfe-0f67d2034221
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 6277 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378148730	geckodriver	INFO	Listening on 127.0.0.1:48369
+1667378148760	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "59563" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileNoVZE4"
+1667378149135	Marionette	INFO	Marionette enabled
+1667378149138	Marionette	INFO	Listening on port 33601
+Read port: 33601
+WebDriver BiDi listening on ws://127.0.0.1:59563
+1667378149212	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNoVZE4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59563/devtools/browser/7629c5f7-67de-489d-9036-6f6be0ef2cd2
+1667378194767	geckodriver	INFO	Listening on 127.0.0.1:55667
+1667378194793	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "41577" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefleaXU"
+1667378195185	Marionette	INFO	Marionette enabled
+1667378195189	Marionette	INFO	Listening on port 34405
+Read port: 34405
+WebDriver BiDi listening on ws://127.0.0.1:41577
+1667378195288	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefleaXU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41577/devtools/browser/ed84e264-6f25-4caf-8d8f-ff00373bbe50
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2287 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378279804	geckodriver	INFO	Listening on 127.0.0.1:36431
+1667378279835	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "43715" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile0GDCsy"
+1667378280226	Marionette	INFO	Marionette enabled
+1667378280229	Marionette	INFO	Listening on port 41447
+Read port: 41447
+WebDriver BiDi listening on ws://127.0.0.1:43715
+1667378280338	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0GDCsy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43715/devtools/browser/d8d81443-395e-4f41-a751-3f7d1f7c7716
+1667378303255	Marionette	INFO	Stopped listening on port 41447
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667378303310	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 966: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-11-02T08:38:23Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1667378347680	geckodriver	INFO	Listening on 127.0.0.1:46133
+1667378347706	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "59979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepWZiHs"
+1667378348077	Marionette	INFO	Marionette enabled
+1667378348080	Marionette	INFO	Listening on port 35177
+WebDriver BiDi listening on ws://127.0.0.1:59979
+Read port: 35177
+1667378348248	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepWZiHs/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59979/devtools/browser/14ab0c73-23fa-4aeb-91d6-b6755c5e7ea8
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 6094 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378428727	geckodriver	INFO	Listening on 127.0.0.1:43823
+1667378428760	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "57015" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFQwFov"
+1667378429146	Marionette	INFO	Marionette enabled
+1667378429149	Marionette	INFO	Listening on port 41037
+Read port: 41037
+WebDriver BiDi listening on ws://127.0.0.1:57015
+1667378429284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFQwFov/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57015/devtools/browser/331ebc39-0d7b-4ab0-a769-76bd0631f629
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 5273 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378468722	geckodriver	INFO	Listening on 127.0.0.1:52827
+1667378468750	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "60431" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileGHY1yV"
+1667378469137	Marionette	INFO	Marionette enabled
+1667378469139	Marionette	INFO	Listening on port 45497
+Read port: 45497
+WebDriver BiDi listening on ws://127.0.0.1:60431
+1667378469234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGHY1yV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60431/devtools/browser/15f760b3-0cf0-4f9b-8a95-3165e301b0c0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 2154 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378566773	geckodriver	INFO	Listening on 127.0.0.1:46619
+1667378566802	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "39979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileQtMfIT"
+1667378567185	Marionette	INFO	Marionette enabled
+1667378567189	Marionette	INFO	Listening on port 41333
+Read port: 41333
+WebDriver BiDi listening on ws://127.0.0.1:39979
+1667378567270	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQtMfIT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39979/devtools/browser/8d240299-f197-412a-ba3d-4b776baab298
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 4811 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667378633348	Marionette	INFO	Stopped listening on port 41333
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1667378633411	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 966: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-11-02T08:43:53Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1667378706884	geckodriver	INFO	Listening on 127.0.0.1:46195
+1667378706912	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "52797" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqgFeqV"
+1667378707303	Marionette	INFO	Marionette enabled
+1667378707306	Marionette	INFO	Listening on port 37151
+Read port: 37151
+WebDriver BiDi listening on ws://127.0.0.1:52797
+1667378707379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqgFeqV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52797/devtools/browser/a50c1ea5-9ac2-4a25-a7ad-2f4cc94a6f01
+1667378761903	geckodriver	INFO	Listening on 127.0.0.1:33807
+1667378761928	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "55125" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeyDpUQ"
+1667378762308	Marionette	INFO	Marionette enabled
+1667378762311	Marionette	INFO	Listening on port 36623
+Read port: 36623
+WebDriver BiDi listening on ws://127.0.0.1:55125
+1667378762391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeyDpUQ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55125/devtools/browser/f5b41b25-f862-4868-a69f-e9131d198d40
+1667378775622	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378780779	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378786042	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378791144	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378796165	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378801281	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378806402	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378811112	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378815759	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378820836	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378825734	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378830050	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667378840932	geckodriver	INFO	Listening on 127.0.0.1:42203
+1667378840964	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "49187" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHJIErO"
+1667378841339	Marionette	INFO	Marionette enabled
+1667378841342	Marionette	INFO	Listening on port 36325
+Read port: 36325
+WebDriver BiDi listening on ws://127.0.0.1:49187
+1667378841416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHJIErO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49187/devtools/browser/1650f7a2-b098-451d-b325-42df6f5fcee4
+1667378906868	geckodriver	INFO	Listening on 127.0.0.1:42723
+1667378906893	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "34169" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenGU6Uc"
+1667378907289	Marionette	INFO	Marionette enabled
+1667378907292	Marionette	INFO	Listening on port 33451
+Read port: 33451
+WebDriver BiDi listening on ws://127.0.0.1:34169
+1667378907364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenGU6Uc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34169/devtools/browser/a95933ab-7e0a-4296-b254-10142d8fdb54
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 7668 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667379157788	Marionette	INFO	Stopped listening on port 33451
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667379157854	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 966: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-11-02T08:52:37Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1667379184965	geckodriver	INFO	Listening on 127.0.0.1:49695
+1667379184995	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "43211" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqQ1YRS"
+1667379185428	Marionette	INFO	Marionette enabled
+1667379185432	Marionette	INFO	Listening on port 45365
+WebDriver BiDi listening on ws://127.0.0.1:43211
+Read port: 45365
+1667379185724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqQ1YRS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43211/devtools/browser/c62df628-bb0a-4478-a8ca-d41e907760a9
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 7337 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667379369009	geckodriver	INFO	Listening on 127.0.0.1:47645
+1667379369042	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "34935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenkzGJu"
+1667379369448	Marionette	INFO	Marionette enabled
+1667379369452	Marionette	INFO	Listening on port 40439
+Read port: 40439
+WebDriver BiDi listening on ws://127.0.0.1:34935
+1667379369529	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenkzGJu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34935/devtools/browser/f2f11127-331e-4cde-b068-b25595294a58
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6736 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667379412059	geckodriver	INFO	Listening on 127.0.0.1:43783
+1667379412090	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "44545" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileyDqyYG"
+1667379412595	Marionette	INFO	Marionette enabled
+1667379412599	Marionette	INFO	Listening on port 43173
+WebDriver BiDi listening on ws://127.0.0.1:44545
+Read port: 43173
+1667379412936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyDqyYG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44545/devtools/browser/2d59ceff-4abd-44cd-825e-cc49bcbd6a31
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667379531338	Marionette	INFO	Stopped listening on port 40439
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667379531435	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 966: Error: Error(s) encountered during statement execution: attempt to write a readonly database
+[2022-11-02T08:58:51Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1667379533010	Marionette	INFO	Stopped listening on port 43173
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667379533111	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 966: Error: Error(s) encountered during statement execution: disk I/O error
+[2022-11-02T08:58:53Z ERROR glean_core] Can't persist ping lifetime data: Error { kind: Rkv(IoError(Os { code: 2, kind: NotFound, message: "No such file or directory" })) }
+1667379794698	geckodriver	INFO	Listening on 127.0.0.1:57135
+1667379794799	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "43761" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilexa5NLK"
+1667379795247	Marionette	INFO	Marionette enabled
+1667379795250	Marionette	INFO	Listening on port 45717
+Read port: 45717
+WebDriver BiDi listening on ws://127.0.0.1:43761
+1667379795430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexa5NLK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43761/devtools/browser/f23a05cb-590d-402a-bf0f-9557bbb464d0
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 2097 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667379822844	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1667379906446	geckodriver	INFO	Listening on 127.0.0.1:33785
+1667379906472	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "48483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileFLuyUj"
+1667379906844	Marionette	INFO	Marionette enabled
+1667379906847	Marionette	INFO	Listening on port 46631
+Read port: 46631
+WebDriver BiDi listening on ws://127.0.0.1:48483
+1667379906920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFLuyUj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48483/devtools/browser/2610dd88-301a-4a0f-9303-db63b8f3d57a
+1667379921854	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379928659	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379933924	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379939410	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379945148	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379951239	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379956181	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379961477	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379967465	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379972353	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379978396	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379984251	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379989740	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667379994775	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380000287	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380006591	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380012176	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380017416	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380023019	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380028753	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667380138403	geckodriver	INFO	Listening on 127.0.0.1:59571
+1667380138423	geckodriver	INFO	Listening on 127.0.0.1:40493
+1667380138435	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "37985" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileS9N1yP"
+1667380138456	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "39379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6wAUV2"
+1667380138976	Marionette	INFO	Marionette enabled
+1667380138979	Marionette	INFO	Listening on port 41441
+1667380139005	Marionette	INFO	Marionette enabled
+1667380139008	Marionette	INFO	Listening on port 40131
+WebDriver BiDi listening on ws://127.0.0.1:37985
+Read port: 41441
+Read port: 40131
+WebDriver BiDi listening on ws://127.0.0.1:39379
+1667380139651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1667380139700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6wAUV2/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileS9N1yP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37985/devtools/browser/1665a5fc-8386-449e-b8f0-446d8625e81d
+DevTools listening on ws://127.0.0.1:39379/devtools/browser/0e64adcd-b3c9-43ac-aa38-96f7d1ea65e0
+1667380143414	geckodriver	INFO	Listening on 127.0.0.1:39661
+1667380143466	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "42087" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileSpgOqE"
+1667380143938	Marionette	INFO	Marionette enabled
+1667380143942	Marionette	INFO	Listening on port 38995
+Read port: 38995
+WebDriver BiDi listening on ws://127.0.0.1:42087
+1667380144045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSpgOqE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42087/devtools/browser/d6b2b47d-90e0-426c-bd3d-1f9492f7bb5e
+1667380151146	Marionette	INFO	Stopped listening on port 40131
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:337:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1667380155744	Marionette	INFO	Stopped listening on port 41441
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/yBpsGyrbw-0ekNfFbDofVV3UtCeaMQwd_FuZQ5DuPuw.js line 2 > eval line 6353 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667380904386	geckodriver	INFO	Listening on 127.0.0.1:39489
+1667380904411	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "47771" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile9DNxmB"
+1667380904796	Marionette	INFO	Marionette enabled
+1667380904799	Marionette	INFO	Listening on port 33515
+Read port: 33515
+WebDriver BiDi listening on ws://127.0.0.1:47771
+1667380904875	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9DNxmB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47771/devtools/browser/e6feea3e-b5e9-45c3-8828-ba32c4b2c374
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 6582 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667381501282	geckodriver	INFO	Listening on 127.0.0.1:42891
+1667381501919	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "33453" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilenddFPS"
+1667381502489	Marionette	INFO	Marionette enabled
+1667381502492	Marionette	INFO	Listening on port 39065
+Read port: 39065
+WebDriver BiDi listening on ws://127.0.0.1:33453
+1667381502653	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenddFPS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33453/devtools/browser/f73641ad-2393-4c2b-95d5-e53f0f3c8cfe
+JavaScript warning: https://pagead2.googlesyndication.com/bg/nOAuMeOBpF9evwNFXVQkLuXNj92N0OJ7uU_f3Vfdro8.js line 2 > eval line 3067 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667398423937	geckodriver	INFO	Listening on 127.0.0.1:49413
+1667398423961	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "55441" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2RLsAo"
+1667398424331	Marionette	INFO	Marionette enabled
+1667398424333	Marionette	INFO	Listening on port 34613
+Read port: 34613
+WebDriver BiDi listening on ws://127.0.0.1:55441
+1667398424420	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2RLsAo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55441/devtools/browser/1e0c05ec-6489-42e5-b297-c64a837f5770
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+JavaScript warning: https://pagead2.googlesyndication.com/bg/vLbRz7g6TQ5oo3iSl-9A8cc-tNTKSUSKynQIdvKxkcY.js line 2 > eval line 6527 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1667398612186	geckodriver	INFO	Listening on 127.0.0.1:46917
+1667398612210	mozrunner::runner	INFO	Running command: "firefox" "--marionette" "--remote-debugging-port" "50859" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileTB6ojr"
+1667398612589	Marionette	INFO	Marionette enabled
+1667398612592	Marionette	INFO	Listening on port 44193
+Read port: 44193
+WebDriver BiDi listening on ws://127.0.0.1:50859
+1667398612679	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTB6ojr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50859/devtools/browser/92624645-b188-467a-9c1f-e755bb62b7c6
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 768))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 420))
+1667398629619	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398635946	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398641299	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398647297	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398654366	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398660748	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398665972	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398672040	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398678668	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398685222	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398690956	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398697274	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398702732	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398709900	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398717902	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398724339	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398729459	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398735807	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398740858	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398746559	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398752444	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398762742	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1667398768477	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.

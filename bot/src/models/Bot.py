@@ -59,25 +59,38 @@ class Bot:
         # Initial home page setup
         self.currentLevel  = 0;
 
-        pageLoaded = False
+        # pageLoaded = False
         
         # while(not pageLoaded):
 
         #visit the page
-        try:
-            self.driver.implicitly_wait(random.randrange(10, 30))
-            self.driver.get(self.rootUrl)
-            self.driver.implicitly_wait(random.randrange(20, 30))
+        while True:
+            try:
+                self.driver.implicitly_wait(random.randrange(10, 30))
+                self.driver.get(self.rootUrl)
+                self.driver.implicitly_wait(random.randrange(20, 30))
 
-            # pageLoaded = True;
-            # break
-        except:
-            print("Unable to load url: ", self.rootUrl);
+                # pageLoaded = True;
+                break
+            except:
+                print("Unable to load url: ", self.rootUrl);
+                self.driver.implicitly_wait(random.randrange(1, 20))
+
+                # pageLoaded = False;
+            
         
     
         # Browse internal links or ads
         while self.awake:
             try:
+                # Randomize scrolling behaviours
+                windowHeight = self.driver.execute_script("return document.body.scrollHeight")
+                print("Window inner hight: ", windowHeight);
+                if(windowHeight <=0):
+                    windowHeight = 1;
+
+                scrollTo = int(windowHeight/random.randrange(1, windowHeight))
+                # self.driver.execute_script("window.scroll(0,"+str(scrollTo)+")")
                 self.driver.implicitly_wait(random.randrange(0, 10))
             except Exception:
                 pass
@@ -89,19 +102,27 @@ class Bot:
                 print()
                 print( self.currentPage.ads_frames)
                 print()
+
+            
+
+
             links = [] 
             ads_len = 0;
             try:
+                
                 # links = self.currentPage.ads_frames;
-               
+                print("--------------------------------------")
+                print(self.currentPage.ads_frames)
+                print("--------------------------------------")
+
                 if(len(self.currentPage.ads_frames)>0 and len(self.currentPage.links)>0):
                     ads_len = int(len(self.currentPage.links)/len(self.currentPage.ads_frames))
                 
                 print(ads_len) 
 
-                self.currentPage.ads_frames = [self.currentPage.ads_frames]*ads_len
+                self.currentPage.ads_frames = [self.currentPage.ads_frames]*(ads_len+1)
                 links =  self.currentPage.ads_frames+ self.currentPage.links;
-                print("Ads doubled ", ads_len)
+                print("Total ads links: ", ads_len)
 
                 if(ads_len == 0):
                     break
@@ -131,14 +152,16 @@ class Bot:
                     
                         self.driver.switch_to.window(handle)
                     #     # wait
-                    #     ad_links = self.findInternalLinks();
-                    #     # ad_links = self.findInternalLinks();
-                    #     if(len(ad_links)>0):
-                    #         actions = ActionChains(self.driver)
-                    #         actions.scroll_to_element(link).move_to_element(link)
-                    #         actions.perform()
-                    #         self.driver.implicitly_wait(random.randrange(0, 20))
-                    #         self.driver.close() #close current window
+                        ad_links = self.findInternalLinks();
+                        # ad_links = self.findInternalLinks();
+                        if(len(ad_links)>0):
+                            # actions = ActionChains(self.driver)
+                            # actions.scroll_to_element(link).move_to_element(link)
+                            # actions.perform()
+                            self.driver.execute_script("window.scroll("+str(link.location['x'])+","+str(link.location['y'])+")")
+                            
+                            self.driver.implicitly_wait(random.randrange(0, 20))
+                            self.driver.close() #close current window
                     
                     print("Ads clicked")
                 
@@ -154,12 +177,16 @@ class Bot:
             elif(pos > len(self.currentPage.ads_frames)):
                 try:
                     actions = ActionChains(self.driver)
-                    actions.scroll_to_element(link).move_to_element(link)
-                    actions.perform();
+                    # actions.scroll_to_element(link).move_to_element(link)
+                    # actions.perform();
                     
+                    print("Link location: ", link.location['y']);
+                    self.driver.execute_script("window.scroll("+str(link.location['x'])+","+str(link.location['y'])+")")
                     self.driver.implicitly_wait(random.randrange(0, 5))
+
                     actions.click();
                     actions.perform();
+                    actions.reset_actions();
                     
                     
                     # link.click()
@@ -308,13 +335,16 @@ class Bot:
     def openTab(self, element):
         actions = ActionChains(self.driver)
 
-        actions.scroll_to_element(element).move_to_element(element)
-        actions.perform()
+        # actions.scroll_to_element(element).move_to_element(element)
+        # actions.perform()
+
+        element.location
         
         self.driver.implicitly_wait(random.randrange(0, 20))
                     
         actions.key_down(Keys.CONTROL).click(element).key_up(Keys.CONTROL);
         actions.perform()
+        actions.reset_actions()
         
         for handle in self.driver.window_handles:
             if(not(handle in self.tabHandles)):

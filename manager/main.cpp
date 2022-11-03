@@ -20,7 +20,13 @@ void signalHandler(int signal)
     if (signal == SIGTERM)
     {
         kill(childPid, SIGKILL);
+    } else if (signal == SIGINT)
+    {
+        /* code */
+        kill(getpid(), SIGKILL);
+        kill(getppid(), SIGKILL);
     }
+    
 }
 
 void *startBot(void *botUrl)
@@ -33,13 +39,6 @@ void *startBot(void *botUrl)
     const char *url = (char *)botUrl;
     argv[2] = (char *)malloc((200) * sizeof(char));
 
-    // argv[3] = (char *)malloc((dbFile.length() + 1) * sizeof(char));
-    // sed -i "s/^hello4.*/testing/" bbfile.db
-
-    // string msg = Message::escape(params.message, {'/'}, '\\');
-    // string tem = "s/^" + to_string(params.uid) + "\\/.*/" + msg + "/g";
-    // cerr << params.message << endl;
-    // cerr << tem << endl;
 
     strcpy(argv[0], "python3");
     strcpy(argv[1], "bot/src/botController.py");
@@ -81,19 +80,11 @@ void *refreshBotLink(void *testLink){
     const char *url = (char *)testLink;
     argv[1] = (char *)malloc((200) * sizeof(char));
 
-    // argv[3] = (char *)malloc((dbFile.length() + 1) * sizeof(char));
-    // sed -i "s/^hello4.*/testing/" bbfile.db
-
-    // string msg = Message::escape(params.message, {'/'}, '\\');
-    // string tem = "s/^" + to_string(params.uid) + "\\/.*/" + msg + "/g";
-    // cerr << params.message << endl;
-    // cerr << tem << endl;
 
     strcpy(argv[0], "firefox_tor");
     strcpy(argv[1], url);
     argv[2] = NULL; // End of argument
 
-    // printf("%s,", url);
 
     errno = 0;
 
@@ -124,19 +115,30 @@ void *refreshBotLink(void *testLink){
 int main(int argc, char *argv[])
 {
     // printf("%s", argv[1]);
+
     if (signal(SIGTERM, signalHandler) == SIG_ERR)
     {
         printf_debug("Unable to catch termination signal\n");
     }
 
     start:
-    
+    try
+    {
+        if(childPid>0){
+             killpg(getpid(), SIGKILL);
+        }
+    }
+    catch(const std::exception& e)
+    {
+        std::cerr << e.what() << '\n';
+    }
+
     for (int i = 0; i < 100; i++)
     {
-        int pid = ThreadManager::createProcess(&startBot, (void *)"https://check.torproject.org");
+        childPid = ThreadManager::createProcess(&startBot, (void *)"https://check.torproject.org");
         // printf("My pid: %d", pid);
-        if(pid > 0){
-            kill(pid, SIGKILL);
+        if(childPid > 0){
+            kill(childPid, SIGKILL);
         }
     }
     
@@ -155,6 +157,8 @@ int main(int argc, char *argv[])
     //         break;
     //     }
     // }
+    
+    
     childPid = ThreadManager::createProcess(&startBot, argv[3]); 
     printf("PID: %d\n", childPid);
     
@@ -177,7 +181,7 @@ int main(int argc, char *argv[])
     Randomer randomer{minTime, maxTime};
     ThreadManager::sleep_(randomer());
     killpg(getpid(), SIGTERM);
-    ThreadManager::sleep_(2);
+    ThreadManager::sleep_(5);
 
 
     goto start;
